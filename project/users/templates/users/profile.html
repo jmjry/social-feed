@@ -1,4 +1,5 @@
 {% extends 'feed/base.html' %}
+{% load crispy_forms_tags %}
 {% block content %}
 <h1> {{user.username}} </h1>
 <div class="media">
@@ -7,5 +8,17 @@
         <h2 class="account-heading">{{user.username}}</h2>
         <p class="text-secondary">{{user.email}}</p>
     </div>
+</div>
+<div>
+    <form method="POST", enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset class="form-group"> 
+            <legend class="border-bottom mb-4">Update Profile</legend>
+            {{ profile_form | crispy }}
+        </fieldset>
+        <div class="form-group"> 
+            <button type="SUBMIT" class="btn-outline-button"> Update </button>
+        </div>
+    </form>
 </div>
 {% endblock content %}
