@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from .models import Post
 from django.contrib.auth.models import User
+from django.views.generic import ListView
 
-def home(request):
-    context = {
-        'posts': Post.objects.all(),
-    }
-    return render(request, "feed/home.html", context)
+class PostListView(ListView):
+    model = Post
+    template_name = "feed/home.html"
+    context_object_name = "posts"
+    ordering = ["-date_posted"]
