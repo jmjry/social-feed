@@ -1,0 +1,9 @@
+{%extends "feed/base.html"%} 
+{%block content%} 
+
+    <h1>{{ object.title }}</h1>
+    <p> By {{ object.author }} on {{ object.date_posted }}</p>
+    <p>{{ object.content }}</p>
+
+{%endblock content%}
+        
