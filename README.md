@@ -31,23 +31,41 @@
 
 ## Features 
 
-### Feature 1 
+### Feature 1 - Account Registration 
+
+ Users can click Register to open the Account Registartion form. The form will allow users to enter a Username, Email and Password before confirming the Password and signing up.
  
-### Feature 2 
+ Username - Must be unique to Social-Feed. If the Username is not unique, an error message will appear instructing the user to pick a different username. If successful, the Username can be used to Login to it's account.
+ 
+ Email - Emails must follow expected syntax.
+ 
+ Password & Confirmation - Must follow specific password rules and match the Confirmation. If the password is similar to the Username or Email, an error message will appear.
+ 
+### Feature 2 - Login
 
-### Feature 3 
+ With an account successfully made, Users can login with their credentials. Firstly, they must either click Login on the navigation bar or click Sign In when prompted during registration.
+ 
+ Username - Users will enter their Username. If incorrect an error message will appear.
+ 
+ Password - Users will enter the correct Password. If incorrect an error message will appear.
 
-### Feature 4 
+### Feature 3 - Home / Feed
 
-### Feature 5 
+### Feature 4 - Posting
 
-### Feature 6 
+### Feature 5 - Posts
 
-### Feature 7
+### Feature 6 - Profile 
 
-### Feature 8 
+### Feature 7 - Profile Pictures 
+
+### Feature 8 - Comments 
 
 ## Features to implement in future versions
+
+### - Video 
+
+### - Reccomended Posts
 
 ## Technologies used
 
