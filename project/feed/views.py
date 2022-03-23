@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from .models import Post
 from django.contrib.auth.models import User
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
@@ -40,3 +41,6 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         if self.request.user == post.author: 
             return True
         return False
+
+def feed(request):
+    return render(request, 'feed/feed.html')

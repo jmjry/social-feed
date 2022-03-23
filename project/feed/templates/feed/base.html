@@ -26,7 +26,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" href="{% url 'feed-home' %}">Feed</a>
+                <a class="nav-item nav-link" href="{% url 'feed-home' %}">Social</a>
+                <a class="nav-item nav-link" href="{% url 'feed' %}">Feed</a>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
@@ -43,16 +44,31 @@
         </div>
         </nav>
     </header>
-    <main role = "main" class = "container"> 
-        {% if messages %} 
-            {% for message in messages %}
-                <div class="alert alert-{{message.tags}}">
-                    {{message}}
+    <main role="main" class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="content-section">
+                <h3>Sidebar</h3>
+                <p class='text-muted'>Internal Links
+                    <ul class="list-group">
+                    <a href="{% url 'feed-home' %}"> <li class="list-group-item list-group-item-light">Social</li> </a>
+                    <a href="{% url 'feed' %}"> <li class="list-group-item list-group-item-light">Feed</li> </a>
+                    </ul>
+                </p>
                 </div>
-            {% endfor %}
-        {% endif %}
-        {% block content %}{% endblock %}
-    </main>
+            </div>
+            <div class="col-md-8">
+                {% if messages %}
+                    {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+  </main>
     <!-- Optional JavaScript -->    <!-- jQuery first, then Popper.js, then Bootstrap JS -->    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
