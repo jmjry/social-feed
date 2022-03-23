@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="{% static 'feed/main.css' %}">
 
     {%if title%}
-        <title>Django Blog - {{ title }}</title>
+        <title>Social-Feed - {{ title }}</title>
     {% else %} 
-        <title>Django Blog</title>
+        <title>Social-Feed</title>
     {% endif %}
 </head>
 <body>
@@ -26,7 +26,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" href="{% url 'feed-home' %}">Home</a>
+                <a class="nav-item nav-link" href="{% url 'feed-home' %}">Feed</a>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
