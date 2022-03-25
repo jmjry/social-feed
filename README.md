@@ -49,17 +49,27 @@
  
  Password - Users will enter the correct Password. If incorrect an error message will appear.
 
-### Feature 3 - Home / SOCIAL
+### Feature 3 - Home / Social
 
 ![Screenshot 2022-03-25 at 21 01 02](https://user-images.githubusercontent.com/86608354/160200186-4df88bce-4b72-4870-997a-053702544456.png)
+![Screenshot 2022-03-25 at 21 13 22](https://user-images.githubusercontent.com/86608354/160201513-5c1e6a4b-1433-4700-b0bb-6dc247ebe3e6.png)
+
+
+Social is the default home page for all users. Social is the newsfeed, displaying all posts by all users in chronological order. Users can navigate the pages of posts using the page number, next, last or previous buttons available at the bottom. In the next version of Social-Feed, it will only display posts from users that you follow.
 
 ### Feature 4 - Posting
 
 ![Screenshot 2022-03-25 at 21 02 41](https://user-images.githubusercontent.com/86608354/160200356-d0db9019-a36d-411c-874b-3ace1c9d0213.png)
 
+After registering, users can create their post by clicking Post. Users will then have the posting form available which has to be filled before submitting by clicking the Post button. Posts are used by users to create content such as recipes, events or promoting their business.
+
 ### Feature 5 - Posts
 
-![Screenshot 2022-03-25 at 21 03 02](https://user-images.githubusercontent.com/86608354/160200395-31e24c80-4179-4eb4-b1bd-e40e307e9aac.png)
+![Screenshot 2022-03-25 at 21 20 04](https://user-images.githubusercontent.com/86608354/160202173-ac4ef401-80e3-4732-b28e-818a0bfdda40.png)
+![Screenshot 2022-03-25 at 21 19 43](https://user-images.githubusercontent.com/86608354/160202131-abc19a29-7315-4a6d-ac5d-0d33d5e870a3.png)
+
+By clicking the post title a pos
+t can be opened. After opening the post, you can view more detail or if you're the post owner, you can update or delete the post. If you're not the owner of the post, you are unable to update or delete the post.
 
 ### Feature 6 - Profile 
 
