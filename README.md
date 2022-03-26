@@ -75,17 +75,20 @@ t can be opened. After opening the post, you can view more detail or if you're t
 
 ![Screenshot 2022-03-25 at 21 03 26](https://user-images.githubusercontent.com/86608354/160200439-6bf8dcbf-165f-467f-a6af-546fb875f3f5.png)
 
+After registering, a profile will be automatically generated. This will display the Username, email and profile picture with an option to update. Additionally, the Profile tab on the navigaion bar will be replaced by the users Username.
 
 ### Feature 7 - Profile Pictures 
 
 ![Screenshot 2022-03-25 at 21 04 07](https://user-images.githubusercontent.com/86608354/160200518-783cd38f-19d3-4181-ae0f-626fe7ab29ca.png)
 ![Screenshot 2022-03-25 at 21 04 15](https://user-images.githubusercontent.com/86608354/160200531-db8e881b-2273-413a-a4c2-cba52889566d.png)
 
+Users will be automatically given a standard Profile Picture when registered. They can change their picture at anytime using the Choose File field to select an image and the Update to see confirmation of a successful image change. The image will be automatically reshaped into a circle.
 
 ### Feature 8 - Reccomended Posts
 
 ![Screenshot 2022-03-25 at 21 04 30](https://user-images.githubusercontent.com/86608354/160200558-e5d8376c-e0f8-43bf-8d08-91302bf3ed04.png)
 
+The Reccomended Posts or Feed highlights interesting posts to users such as News, Recipes or Promotions. All of the titles are clickable, a new tab will be opened and the user directed to that page. 
 
 ### Feature 9 - Sidebar
 
