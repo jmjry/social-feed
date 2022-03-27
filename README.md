@@ -94,18 +94,27 @@ The Reccomended Posts or Feed highlights interesting posts to users such as News
 
 ![Screenshot 2022-03-25 at 21 05 25](https://user-images.githubusercontent.com/86608354/160200652-4d36499e-0b35-44ea-8067-c77012b8b4d4.png)
 
+On the left of the screen I've added a Sidebar to provide easier navigation for Users. New pages will be added in the future to improve User Experience when navigating the site.
+
 ### Feature 10 - Navigation Bar 
 
 ![Screenshot 2022-03-25 at 21 05 51](https://user-images.githubusercontent.com/86608354/160200687-bb0d20f2-6bb0-49c2-83f4-e948d5ccb08e.png)
 
+The navigation bar presents the page name, Social, Feed, Post, User and Logout. All of the links work as intended and provide simple navigation for users.
 
 ## Features to implement in future versions
 
 ### Messaging 
 
+In the future I would want to implement user interaction such as Messaging and Commenting on posts. These feartures would make users use the platform more often, build regular users and increase the amount of content being posted.
+
 ### Following 
 
+Following users and viewing profiles would increase useage and improve expereience. With this addition all types of users could improve their content offering and use the site to leverage their requirements.
+
 ### - Video 
+
+With the addition of Video media uploads users would have a wider range of content available to post. This would help improve content variety and assist with growing the user base.
 
 
 ## Technologies used
