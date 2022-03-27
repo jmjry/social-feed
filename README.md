@@ -147,7 +147,7 @@ With the addition of Video media uploads users would have a wider range of conte
 
 - [OS](https://docs.python.org/3/library/os.html)
 
-- [PIL, Image] (https://pillow.readthedocs.io/en/stable/reference/Image.html)
+- [PIL](https://pillow.readthedocs.io/en/stable/reference/Image.html)
 
 - [Sys](https://docs.python.org/3/library/sys.html)
 
