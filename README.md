@@ -25,6 +25,8 @@
 
 ### Wireframes 
 
+[Wireframes were deisgned on Balsamiq](https://github.com/jmjry/social-feed/files/8358390/Social.Feed.Wireframes.Final.pdf)
+
 ## Features 
 
 ### Feature 1 - Account Registration 
