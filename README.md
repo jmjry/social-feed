@@ -112,7 +112,7 @@ In the future I would want to implement user interaction such as Messaging and C
 
 Following users and viewing profiles would increase useage and improve expereience. With this addition all types of users could improve their content offering and use the site to leverage their requirements.
 
-### - Video 
+### Video 
 
 With the addition of Video media uploads users would have a wider range of content available to post. This would help improve content variety and assist with growing the user base.
 
@@ -121,12 +121,52 @@ With the addition of Video media uploads users would have a wider range of conte
 
 ### Frameworks, Libraries & Programs
 
+- HTML5
+
+- CSS
+
+- JavaScript
+
+- Python 3.2
+
+- [GitHub](https://github.com/) is the repository used for projec codes to be pushed from VSCode.
+
+- [VSCode](https://code.visualstudio.com/) was the version control used.
+
+- [Flowmap](https://www.flowmapp.com/) used to create user flowmaps during the design process.
+
+- [Heroku](https://dashboard.heroku.com/) used to deploy the app to a live cloud based application.
+
+- [Django 2.1](https://www.djangoproject.com/): 
+
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+
+- [Bootstrap](https://getbootstrap.com/)
+
+- [DJ_Database_URL](https://pypi.org/project/dj-database-url/)
+
+- [OS](https://docs.python.org/3/library/os.html)
+
+- [PIL, Image] (https://pillow.readthedocs.io/en/stable/reference/Image.html)
+
+- [Sys](https://docs.python.org/3/library/sys.html)
+
+
+
 ## Testing 
+
+
 
 ## Deployment 
 
+
+
 ## Credits 
 
+
+
 ## Content 
+
+
 
 ## Code 
