@@ -1,10 +1,13 @@
 # Social-Feed 
 
+Social-Feed is a foodie dedicated social media page. It looks to encourage foodies to share their ideas, view others content and become up-to-date with the latest foodie news. 
+
+
 ## Goals of the site:
 
-1. ABC
-2. ABC
-3. ABC
+1. See foodie releated posts by content creators.
+2. Promote hospitaltiy businesses.
+3. Share experiences, ideas and content with other foodies.
 
 ## User Experience 
 
@@ -135,7 +138,7 @@ With the addition of Video media uploads users would have a wider range of conte
 
 - [VSCode](https://code.visualstudio.com/) was the version control used.
 
-- [Flowmap](https://www.flowmapp.com/) used to create user flowmaps during the design process.
+- [Balsamiq](https://balsamiq.com/) used to create user flowmaps during the design process.
 
 - [Heroku](https://dashboard.heroku.com/) used to deploy the app to a live cloud based application.
 
@@ -157,6 +160,11 @@ With the addition of Video media uploads users would have a wider range of conte
 
 ## Testing 
 
+* Tested all key features, responsiveness and links of the site. 
+
+[PP4 Testing.pdf](https://github.com/jmjry/social-feed/files/8360657/PP4.Testing.pdf)
+
+* Automated tests setup for the .py pages. All results came back as anticipated.
 
 
 ## Deployment 
@@ -173,6 +181,20 @@ With the addition of Video media uploads users would have a wider range of conte
 
 ## Content 
 
+* All media and images are owned by me.
+* Any unlinked post content was written by me.
+* All accounts created were registered by me.
+* [Reccomended Post] Pea Porridge by EADT(https://www.eadt.co.uk/news/pea-porridge-receives-only-michelin-star-in-suffolk-7919860)
+* [Reccomended Post] FEED is owned by me.(https://jmjry.github.io/feed/)
+* [Reccomended Post] Recipe of the month by BBC(https://www.bbc.co.uk/food/recipes/vegan_thai_green_curry_69640)
+* [Reccomended Post] Pub chain opening new pubs by EADT (https://www.eadt.co.uk/news/business/suffolk-pub-chain-snaps-up-two-pubs-8372208)
+
+All content has the sole use for education.
 
 
-## Code 
+### Code 
+
+* As a go to reasource hub I used [W3S Schools](https://www.w3schools.com/default.asp).
+* When stuck on a development issue, I checked [Stackoverflow](https://stackoverflow.com) to see if other developers had the same problems.
+* To learn about Crispy forms I used the [documentation available](https://django-crispy-forms.readthedocs.io/en/latest/)
+
