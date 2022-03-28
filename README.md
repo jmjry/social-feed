@@ -169,6 +169,7 @@ With the addition of Video media uploads users would have a wider range of conte
 
 ## Deployment 
 
+Deployment failed - I tried deploying via Heroku but was unable to succesfully connect my project. I was working from VSCode and followed set by step guides however was unable to push origin master and finish the final steps. I spent many hours working on this and will continue working out the issue.
 
 
 ## Credits 
