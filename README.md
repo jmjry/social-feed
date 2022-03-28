@@ -167,9 +167,9 @@ With the addition of Video media uploads users would have a wider range of conte
 * Automated tests setup for the .py pages. All results came back as anticipated.
 
 
-## Deployment 
+## Deployment
 
-
+Unfortantely I was unable to successfully deploy the project via Heroku.
 
 ## Credits 
 
@@ -197,4 +197,3 @@ All content has the sole use for education.
 * As a go to reasource hub I used [W3S Schools](https://www.w3schools.com/default.asp).
 * When stuck on a development issue, I checked [Stackoverflow](https://stackoverflow.com) to see if other developers had the same problems.
 * To learn about Crispy forms I used the [documentation available](https://django-crispy-forms.readthedocs.io/en/latest/)
-
