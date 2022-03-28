@@ -16,6 +16,7 @@ class PostListView(ListView):
     template_name = "feed/home.html"
     context_object_name = "posts"
     ordering = ["-date_posted"]
+    # Paginates 3 posts per page
     paginate_by = 3
 
 
@@ -39,7 +40,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-
+# Ensures that only the user can edit their posts 
     def test_func(self):
         post = self.get_object()
         if self.request.user == post.author:
@@ -50,7 +51,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
 class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Post
     success_url = "/"
-
+# Ensures that only the user can delete their posts
     def test_func(self):
         post = self.get_object()
         if self.request.user == post.author:

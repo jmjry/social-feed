@@ -19,7 +19,7 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse("post-detail", kwargs={"pk": self.pk})
 
-
+    # Creates the field for users to post content 
 class Comment(models.Model):
     content = models.TextField(max_length=2000)
     date_posted = models.DateTimeField(auto_now_add=True)
