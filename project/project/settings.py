@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -78,16 +78,16 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.parse('postgres://ykszupuabihjzj:d16db6ed18e798f9b2a7311aefd078fc007a429dc03838a1040f81f04a24ad2f@ec2-176-34-211-0.eu-west-1.compute.amazonaws.com:5432/d6iunadhrh998l') 
-    } 
-    
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
-#     }
-# }
+#     'default': dj_database_url.parse('postgres://ykszupuabihjzj:d16db6ed18e798f9b2a7311aefd078fc007a429dc03838a1040f81f04a24ad2f@ec2-176-34-211-0.eu-west-1.compute.amazonaws.com:5432/d6iunadhrh998l') 
+#     } 
+    
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
+    }
+}
 
 
 # Password validation
