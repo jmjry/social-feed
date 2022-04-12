@@ -1,1 +1,1 @@
-web: gunicorn django_social-feed.wsgi:application
+web: gunicorn socialfeeder.wsgi:application
