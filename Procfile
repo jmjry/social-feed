@@ -1,1 +1,1 @@
-web: gunicorn social-feed.wsgi:application
+web: gunicorn project.wsgi:application
