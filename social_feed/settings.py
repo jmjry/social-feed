@@ -33,8 +33,8 @@ ALLOWED_HOSTS = ["socialfeeder.herokuapp.com", 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
-    'project.users.apps.UsersConfig',
-    'project.feed.apps.FeedConfig',
+    'social_feed.apps.users',
+    'social_feed.apps.feed',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project.project.urls'
+ROOT_URLCONF = 'social_feed.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'project.wsgi.application'
+WSGI_APPLICATION = 'social_feed.wsgi.application'
 
 
 # Database

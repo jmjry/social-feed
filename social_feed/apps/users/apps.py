@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class UsersConfig(AppConfig):
-    name = "project.users"
+    name = "social_feed.apps.users"
 
     def ready(self):
-        import project.users.signals
+        import social_feed.apps.users.signals
