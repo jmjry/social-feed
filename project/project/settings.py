@@ -33,8 +33,8 @@ ALLOWED_HOSTS = ["socialfeeder.herokuapp.com", 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
-    'users.apps.UsersConfig',
-    'feed.apps.FeedConfig',
+    'project.users.apps.UsersConfig',
+    'project.feed.apps.FeedConfig',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = 'project.project.urls'
 
 TEMPLATES = [
     {
