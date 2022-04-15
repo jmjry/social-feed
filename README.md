@@ -169,7 +169,26 @@ With the addition of Video media uploads users would have a wider range of conte
 
 ## Deployment 
 
-Deployment failed - I tried deploying via Heroku but was unable to succesfully connect my project. I was working from VSCode and followed set by step guides however was unable to push origin master and finish the final steps. I spent many hours working on this and will continue working out the issue.
+1. On Heroku create an account and log in.
+2. Click new and create new app.
+3. Choose a unique name for your app, select region and click on Create App
+4. Under the Settings click Reveal Config Vars and set IP to 0.0.0.0 and the PORT to 5000
+5. Go to the CLI and type $ sudo snap install --classic heroku
+6. Type $ heroku login command into the terminal
+7. Create requirements.txt ($ sudo pip3 freeze --local > requirements.txt)
+8. Create a Procfile ($ echo web: python app.py > Procfile)
+9. Go back to Heroku, under Deploy find Existing Git repository and copy the command:$ heroku git:remote -a <app_name> Paste this into the terminal.
+10. (If repository was not created already, type:
+11. $ cd my-project/
+12. $ git init
+13. $ heroku git:remote -a <app_name>)
+14. Type $ heroku ps:scale web=1 into the terminal.
+15. Go back to Heroku, and at Settings copy https://<app_name>.herokuapp.com/
+16. In the terminal type git remote add http://<app_name>.herokuapp.com/
+17. Type git push -u heroku master
+18. In the app dashboard, under Settings click on Reveal Config Vars
+19. Set "SECRET_KEY"
+20. Once the build is complete, go back to Heroku and click on Open App
 
 
 ## Credits 
